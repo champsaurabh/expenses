@@ -18,10 +18,10 @@
   </bean>
 
   <bean id="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-    <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-    <property name="url" value="jdbc:mysql://localhost:3306/spring_mvc?serverTimezone=UTC" />
-    <property name="username" value="root" />
-    <property name="password" value="" />
+    <property name="driverClassName" value="org.postgresql.Driver" />
+    <property name="url" value="jdbc:postgresql://ec2-184-72-162-198.compute-1.amazonaws.com:5432/d5q39muudd8l2v?sslmode=require" />
+  	<property name="username" value="cexzdlrvhfrsme" />
+  	<property name="password" value="f425beaab2fd7b708e97a98fc4fb2c3a37f799082fcba76c39b1020dc0c90e99" />
   </bean>
 
 </beans>

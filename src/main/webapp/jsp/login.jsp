@@ -12,7 +12,7 @@ body, html {
   margin: 0;
 }
 body  {
-  background-image: url("https://images.newscientist.com/wp-content/uploads/2019/10/15125716/gettyimages-1091936124.jpg");
+  background-image: url("https://www.optimumsystemsonline.com/wp-content/uploads/2018/01/Ecommerce-Website.jpeg");
   background-position: center;
   background-size: cover;
    
@@ -31,9 +31,9 @@ body  {
 	<form:form id="loginForm" modelAttribute="login" action="loginProcess"
 		method="post">
 		<header>
-    		<h2 align="center" style="color:white;">Enroute Nirvana</h2>
+    		<h4 align="center" style="color:black;">Login here with your credentials</h4>
     	</header>
-		<table align="center" height="50" width="25" body style='background: rgba(255,255,255,0.4);'>
+		<table align="center" height="50" width="25" body style='background: rgba(255,255,255,0.8);'>
 			<tr>
 				<td></td>
 				<td></td>
@@ -63,7 +63,7 @@ body  {
 			</tr>
 		</table>
 	</form:form>
-	<table align="center">
+	<table align="center"  body style='background: rgba(255,255,255,0.8);' body style='width: 39px;'>
 		<tr>
 			<td style="font-style: italic; color: red;">${message}</td>
 		</tr>

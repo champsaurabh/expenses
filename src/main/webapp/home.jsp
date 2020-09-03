@@ -11,7 +11,7 @@ body, html {
   margin: 0;
 }
 body  {
-  background-image: url("https://images.newscientist.com/wp-content/uploads/2019/10/15125716/gettyimages-1091936124.jpg");
+  background-image: url("https://www.optimumsystemsonline.com/wp-content/uploads/2018/01/Ecommerce-Website.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,22 +33,25 @@ body  {
    
 }
 
+
+
+
+
 </style>
 </head>
 <body>
 	<header>
-    	<h2 align="center" style="color:white;">Enroute Nirvana</h2>
+    	<h4 align="center" style="color:white;"></h2>
     </header>
-	<table align="center" height="50" width="25" body style='background: rgba(255,255,255,0.4);'>
+	<table align="center" height="50" width="275" body style='background: rgba(255,255,255,0.8);'>
+		<th>Need Or Greed Bought..?</th>
+		<th>This is where you Keep it Sort..</th>
 		<tr>
-			<td align="center"><a href="login"><img src="https://www.freeiconspng.com/uploads/login-button-png-4.jpg" 
-				style="width:80px;height:35px;"></a></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td align="center"><a href="register"><img src="https://www.swanhillsauctions.com/wp-content/uploads/2017/10/register-button-2.png" 
-				style="width:80px;height:40px;"></a></td>
-				
+			<td style="text-align:center"><a href="login"><img src="https://www.freeiconspng.com/uploads/login-button-png-4.jpg" 
+				style="width:80px;height:35px;"></a>
+				</td>
+				<td style="text-align:center"><a href="register"><img src="https://www.swanhillsauctions.com/wp-content/uploads/2017/10/register-button-2.png" 
+				style="width:80px;height:35px;"></a></td>			
 		</tr>
 	</table>
 </body>

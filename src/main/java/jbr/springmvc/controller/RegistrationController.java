@@ -29,9 +29,13 @@ public class RegistrationController {
   @RequestMapping(value = "/registerProcess", method = RequestMethod.POST)
   public ModelAndView addUser(HttpServletRequest request, HttpServletResponse response,
       @ModelAttribute("user") User user) {
-
+	ModelAndView mav = null;
     userService.register(user);
-
-    return new ModelAndView("highnote", "firstname", user.getFirstname());
+    mav = new ModelAndView("highnote");
+    mav.addObject("firstname", user.getFirstname());
+    mav.addObject("grocery", user.getExpname());
+    mav.addObject("online_shopping", user.getExpamt());
+    mav.addObject("other_expenses", user.getScore());
+    return mav;
   }
 }

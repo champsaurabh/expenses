@@ -27,6 +27,12 @@ public class LoginController {
     return mav;
   }
   
+  /* <bean id="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+  <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+  <property name="url" value="jdbc:mysql://localhost:3306/spring_mvc?serverTimezone=UTC" />
+	<property name="username" value="root" />
+	<property name="password" value="" />
+  </bean>  */
   
   @RequestMapping(value = "/loginProcess", method = RequestMethod.POST)
   public ModelAndView loginProcess(HttpServletRequest request, HttpServletResponse response,
@@ -38,11 +44,13 @@ public class LoginController {
     if (null != user) {
       mav = new ModelAndView("highnote");
       mav.addObject("firstname", user.getFirstname());
-      mav.addObject("score", user.getScore());
+      mav.addObject("grocery", user.getExpname());
+      mav.addObject("online_shopping", user.getExpamt());
+      mav.addObject("other_expenses", user.getScore());
       
     } else {
       mav = new ModelAndView("login");
-      mav.addObject("message", "Username or Password is wrong!!");
+      mav.addObject("message", "Username or Password is wrong ........!!");
     }
 
     return mav;

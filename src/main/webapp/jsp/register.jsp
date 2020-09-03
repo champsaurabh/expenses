@@ -12,7 +12,7 @@ body, html {
   margin: 0;
 }
 body  {
-  background-image: url("https://images.newscientist.com/wp-content/uploads/2019/10/15125716/gettyimages-1091936124.jpg");
+  background-image: url("https://www.optimumsystemsonline.com/wp-content/uploads/2018/01/Ecommerce-Website.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,13 +30,12 @@ body  {
 <body>
 	<form:form id="regForm" modelAttribute="user" action="registerProcess"
 		method="post">
-        <header>
-    		<h2 align="center" style="color:white;">Lets's Get Started..</h2>
-    	</header>
-		<table align="center" height="300" width="250" body style='background: rgba(255,255,255,0.4);'>
+		<table align="center" height="300" width="250" body style='background: rgba(255,255,255,0.8);'>
+			<th align="right">Lets's </th>
+			<th align="left">Get Started</th>
 			<tr>
 				<td><form:label path="username">Username</form:label></td>
-				<td><form:input path="username" name="username" id="username" placeholder="expecting some savage" /></td>
+				<td><form:input path="username" name="username" id="username" placeholder="even nickname will do" /></td>
 			</tr>
 			<tr>
 				<td><form:label path="password">Password</form:label></td>
@@ -51,10 +50,6 @@ body  {
 			<tr>
 				<td><form:label path="lastname">LastName</form:label></td>
 				<td><form:input path="lastname" name="lastname" id="lastname" placeholder="I'm sure its WOW" /></td>
-			</tr>
-			<tr>
-				<td><form:label path="birthdate">Birthdate</form:label></td>
-				<td><form:input path="birthdate" name="birthdate" id="birthdate" placeholder="when is next party?"/></td>
 			</tr>
 
 			<tr>

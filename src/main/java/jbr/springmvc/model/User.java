@@ -6,11 +6,11 @@ public class User {
   private String password;
   private String firstname;
   private String lastname;
-  private String birthdate;
-  private int totscore;
+  private int expname;
+  private int expamt;
   private int score;
-  private int bakescore;
-  private int nightscore;
+  
+
 
 
   public User(){
@@ -52,47 +52,32 @@ public class User {
     this.lastname = lastname;
   }
 
-  public String getBirthdate() {
-    return birthdate;
+ 
+
+  public int getExpname() {
+	return expname;
   }
 
-  public void setBirthdate(String birthdate) {
-    this.birthdate = birthdate;
-  }
-  
-  public int getScore() {
-	return score;
-  }
+  public int getExpamt() {
+	return expamt;
+ }
 
-  public void setScore(int score) {
-		//System.out.println("score: " + score);
-	this.score = score;
-  }
-  
-  public void setBakescore(int bakescore) {
-    System.out.println("score: " + bakescore);
-	this.bakescore = bakescore;
-  }
+ public void setExpamt(int expamt) {
+	this.expamt = expamt;
+ }
 
-  public int getBakescore() {
-	return bakescore;
-  }
-
-  public int getNightscore() {
-	return nightscore;
-  }
+public void setExpname(int expname) {
+	this.expname = expname;
 	
-  public void setNightscore(int nightscore) {
-	this.nightscore = nightscore;
-  }
+}
 
- public int getTotscore() {
-	return totscore;
- }
+public int getScore() {
+	return score;
+}
 
- public void setTotscore(int totscore) {
-	this.totscore = totscore;
- }
+public void setScore(int score) {
+	this.score = score;
+}
 
 
   
